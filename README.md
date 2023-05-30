@@ -1,5 +1,5 @@
 # DailyMail
-A project to automate email to myself based on customized data sets.
+A project to automate email based on customized data sets.
 
 ### Background
 This project was inspired by....
