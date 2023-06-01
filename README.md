@@ -11,7 +11,6 @@ This project was inspired by Willem Hoek's [Birthday Reminder](https://whoek.com
 ### Tools
 - [Sendgrid API](https://sendgrid.com) for automating the email -- free for less than 100 emails per day.
 - Github Actions for running the python script.  Note - [Azure Pipelines](https://learn.microsoft.com/en-us/dotnet/architecture/devops-for-aspnet-developers/actions-vs-pipelines) is an alternative for Github Actions.
-- M
 
 I found Chat GPT helpful in creating the python and html code.  
 
