@@ -4,11 +4,20 @@ A project to automate email based on customized data sets.
 *** work in progress - still being updated ***
 
 ### Background
-This project was inspired by....
+This project created a script to send me an email each day reminding me about upcoming holidays and birthdays.  After doing that, I started including some reading to start the day, along with recent market information.
 
-Tools
+This project was inspired by Willem Hoek's [Birthday Reminder](https://whoek.com/b/birthday-reminder-with-github-actions-and-python) project.  You can find his [Github repository here](https://github.com/whoek/birthday-reminder).
 
-Process
+### Tools
+- [Sendgrid API](https://sendgrid.com) for automating the email -- free for less than 100 emails per day.
+- Github Actions for running the python script.  Note - [Azure Pipelines](https://learn.microsoft.com/en-us/dotnet/architecture/devops-for-aspnet-developers/actions-vs-pipelines) is an alternative for Github Actions.
+- M
+
+I found Chat GPT helpful in creating the python and html code.  
+
+
+
+### Process
 
 
 Content
