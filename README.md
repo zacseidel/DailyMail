@@ -17,25 +17,24 @@ I found Chat GPT helpful in creating the python and html code.
 ## Process
 
 
-Content
+## Content
+
+### Reading
 
 
-Dates
+### Markets
 
-Stocks
+### Recurring Reminders
 
-Reading
+### Occasions 
 
-Reminders
+## Setup
 
+### HTML
 
-Setup
+### Email
 
-HTML
-
-Email
-
-Github Actions
+### Github Actions
 
 
 
