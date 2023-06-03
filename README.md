@@ -11,6 +11,7 @@ This project was inspired by Willem Hoek's [Birthday Reminder](https://whoek.com
 ## Tools
 - [Sendgrid API](https://sendgrid.com) for automating the email -- free for less than 100 emails per day.
 - Github Actions for running the python script.  Note - [Azure Pipelines](https://learn.microsoft.com/en-us/dotnet/architecture/devops-for-aspnet-developers/actions-vs-pipelines) is an alternative for Github Actions.
+- While there are several free tools for downloading financial information, I found the easiest option to be creating a google sheet with the relevant information through the GoogleFinance() function, then downloading the data from the GoogleSheet to my email with the gspread package.
 
 I found Chat GPT helpful in creating the python and html code.  
 
