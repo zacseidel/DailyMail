@@ -16,7 +16,14 @@ This project was inspired by Willem Hoek's [Birthday Reminder](https://whoek.com
 
 I found Chat GPT helpful in creating the python and html code.  
 
-## Process
+## Github Repository
+
+Files used are:  
+- `daily_mail.py` - python program which creates the html and sends the email
+- `.env` - environment variables for the python program
+- `birthdays.csv` - list of dates
+- `verses.csv` - list of verses
+- `github/workflows/pythonapp.yaml` - Github Actions setup file
 
 
 ## Content
