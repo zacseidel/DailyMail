@@ -23,7 +23,7 @@ Files used are:
 - `.env` - environment variables for the python program
 - `birthdays.csv` - list of dates
 - `verses.csv` - list of verses
-- `github/workflows/pythonapp.yaml` - Github Actions setup file
+- `github/workflows/pythonapp.yml` - Github Actions setup file
 
 
 ## Content
