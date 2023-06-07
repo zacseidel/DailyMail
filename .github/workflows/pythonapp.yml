@@ -1,0 +1,21 @@
+# Send daily emails - time in UTC (GMT)
+name: The Daily Mail
+on:
+  schedule:
+  - cron:  '35 10 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+    - name: Set up Python 3.7
+      uses: actions/setup-python@v3
+      with:
+        python-version: '3.7'
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install environs requests sendgrid yfinance
+    - name: Send email
+      run:  python ./daily_mail.py
+      
